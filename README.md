@@ -18,6 +18,12 @@ em que um único transportador leva vários produtos (relação 1 para muitos). 
 - Relatório por dia, com download em CSV (abre no Excel) e impressão
 - Menu de navegação, validações e máscaras de CEP/telefone
 
+## Como executar (XAMPP)
+1. Instale e abra o XAMPP; inicie o **Apache**.
+2. Copie a pasta do projeto para `C:\xampp\htdocs\logistica-fretes`.
+3. Acesse **http://localhost/logistica-fretes/**.
+4. O banco (`data/logistica.sqlite`) é criado automaticamente no primeiro acesso, sem configuração.
+
 ## Estrutura
 Cada entidade tem sua própria pasta, e cada operação do CRUD é um arquivo (endpoint):
 ```
